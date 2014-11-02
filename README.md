@@ -73,12 +73,12 @@ All non-api routing is client-side, handled by [page.js](https://github.com/visi
 
 - Great feeling of speed and great flexibility
 - Very simple and straightforward
-- Support `hashbang` option if when browsers don't support HTML5 [History](https://developer.mozilla.org/en-US/docs/Web/API/History) API
+- Support `hashbang` option when browsers don't support HTML5 [History](https://developer.mozilla.org/en-US/docs/Web/API/History) API
 
 ### Styling
 
 I really like [LESS](http://lesscss.org), as you've seen above in build system.
-I've added [Bootstrap 3](http://getbootstrap.com) as a dependency and import it in `less/main.less`.
+I've added [Bootstrap 3](http://getbootstrap.com) as a dependency and imported it in `less/main.less`.
 
 This way you can customize Bootstrap variables with ease, import only the modules you need, and minimize CSS overwrites.
 
