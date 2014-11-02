@@ -1,0 +1,14 @@
+node_modules/*
+!node_modules/app
+!node_modules/config
+
+coverage/
+
+public/css/*
+public/js/*
+
+*.log
+
+.bundle*
+.DS_Store
+.idea

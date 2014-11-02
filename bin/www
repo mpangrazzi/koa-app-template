@@ -1,0 +1,16 @@
+#!/usr/bin/env node --harmony
+
+var colors = require('colors');
+
+var app = require('../app');
+var L = require('../lib/log');
+
+var env = process.env.NODE_ENV || 'development';
+var port = process.env.PORT || 3000;
+
+
+// start
+
+app.listen(port, function() {
+  L('boot', 'http', '[%s] App listening on port %s', env.bold.cyan, port.toString().bold);
+});
